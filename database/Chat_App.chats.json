@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "66f3e399dfa7dd1b33cf3a93"
+  },
+  "chatName": "Mern stack project",
+  "isGroupChat": true,
+  "users": [
+    {
+      "$oid": "66f3dd415d8f90288f4d93ea"
+    },
+    {
+      "$oid": "66f3e30ddfa7dd1b33cf3a01"
+    },
+    {
+      "$oid": "66f3e379dfa7dd1b33cf3a3c"
+    }
+  ],
+  "groupAdmin": {
+    "$oid": "66f3e379dfa7dd1b33cf3a3c"
+  },
+  "createdAt": {
+    "$date": "2024-09-25T10:19:05.741Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T10:21:47.966Z"
+  },
+  "__v": 0,
+  "latestMessage": {
+    "$oid": "66f3e43bdfa7dd1b33cf3b10"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f3e45ddfa7dd1b33cf3b60"
+  },
+  "chatName": "sender",
+  "isGroupChat": false,
+  "users": [
+    {
+      "$oid": "66f3dd415d8f90288f4d93ea"
+    },
+    {
+      "$oid": "66f3e379dfa7dd1b33cf3a3c"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-09-25T10:22:21.208Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T10:23:53.190Z"
+  },
+  "__v": 0,
+  "latestMessage": {
+    "$oid": "66f3e4b9dfa7dd1b33cf3edd"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f3e5fbdfa7dd1b33cf4215"
+  },
+  "chatName": "mern_projects",
+  "isGroupChat": true,
+  "users": [
+    {
+      "$oid": "66f3e30ddfa7dd1b33cf3a01"
+    },
+    {
+      "$oid": "66f3e379dfa7dd1b33cf3a3c"
+    },
+    {
+      "$oid": "66f3dd415d8f90288f4d93ea"
+    }
+  ],
+  "groupAdmin": {
+    "$oid": "66f3dd415d8f90288f4d93ea"
+  },
+  "createdAt": {
+    "$date": "2024-09-25T10:29:15.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T10:29:38.692Z"
+  },
+  "__v": 0,
+  "latestMessage": {
+    "$oid": "66f3e612dfa7dd1b33cf4238"
+  }
+}]

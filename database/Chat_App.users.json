@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "66f3dd415d8f90288f4d93ea"
+  },
+  "name": "dixit",
+  "email": "dixit@gmail.com",
+  "password": "$2a$10$l3q3ydRM8XBVtRKDDbTKcundMxHsCELOCWqjm5hV7sec7KExxaJFy",
+  "photo": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "createdAt": {
+    "$date": "2024-09-25T09:52:01.607Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T09:52:01.607Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f3e30ddfa7dd1b33cf3a01"
+  },
+  "name": "meet",
+  "email": "meet@gmail.com",
+  "password": "$2a$10$sfXK6PoE8PKQkMAXcsMQu.Zq.7LjDtT/LvpxHAUaA1U03L94BZxJC",
+  "photo": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "createdAt": {
+    "$date": "2024-09-25T10:16:45.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T10:16:45.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f3e379dfa7dd1b33cf3a3c"
+  },
+  "name": "patel deepak",
+  "email": "patel@gmail.com",
+  "password": "$2a$10$DE7la1zBAuoUJS8anlr3T.nw/TX7plEDR43V7LRQSlSYMahFcqI9y",
+  "photo": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "createdAt": {
+    "$date": "2024-09-25T10:18:33.394Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-25T10:18:33.394Z"
+  },
+  "__v": 0
+}]
