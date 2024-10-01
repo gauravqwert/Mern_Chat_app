@@ -9,26 +9,25 @@ import messageRoutes from "./routes/messageRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import { Server } from "socket.io";
 import path from "path";
+import { fileURLToPath } from "url";
 const webapp = express();
 dotenv.config();
 connectDB();
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 webapp.use(express.json());
 webapp.use("/api/user", userRoutes);
 webapp.use("/api/chat", chatRoutes);
 webapp.use("/api/message", messageRoutes);
 // --------- Deployment ----------
-const __dirname1 = path.resolve();
-if (process.env.NODE_ENV === "production") {
-  webapp.use(express.static(path.join(__dirname1, "frontend/build")));
-  webapp.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname1, "frontend", "build", "index.html"));
-  });
-} else {
-  webapp.get("/", (req, res) => {
-    res.send("Our API is running fine");
-  });
-}
+
+webapp.use(express.static(path.join(__dirname,'/client/build')))
+
+// render 
+webapp.get('*',(req,res) => res.sendFile(path.join(__dirname,'/client/build/index.html')))
+
 // --------- Deployment ----------
 webapp.use(notFound);
 webapp.use(errorHandler);
